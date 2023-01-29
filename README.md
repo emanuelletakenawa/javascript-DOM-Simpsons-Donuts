@@ -29,4 +29,6 @@ Praticando a utilização do DOM, criei e estilizei essa lista de uma lojinha de
 <hr>
 
 ## 🧡Autora
-- [@emanuelletakenawa](https://github.com/emanuelletakenawa)
+- [@emanuelletakenawa](https://github.com/emanuelletakenawa) <br>
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuelle-takenawa-32b6a1257)
+
