@@ -9,7 +9,7 @@
 
 ## 🖇️Para acessar a demonstração do projeto
 
-[Clique aqui](https://vercel.com/emanuelletakenawa/javascript-dom-simpsons-donuts)
+[Clique aqui](https://javascript-dom-simpsons-donuts.vercel.app/)
 
 
 
