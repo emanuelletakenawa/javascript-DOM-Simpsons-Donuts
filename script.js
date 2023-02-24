@@ -26,19 +26,19 @@ let body = document.querySelector("body")
 
 function createDonuts (){
     let main = document.createElement('main')
-    let figure = document.createElement("figure")
-    let img = document.createElement("img")
-    let figure2 = document.createElement("figure")
-    let img2 = document.createElement("img")
+    let figureLogo = document.createElement("figure")
+    let imgLogo = document.createElement("img")
+    let figureDonuts = document.createElement("figure")
+    let imgDonuts = document.createElement("img")
 
-    img.setAttribute("class", "logo")
-    figure2.setAttribute("class", "donuts2")
-    img2.setAttribute("class", "imgDonuts2")
-    img.src = "assets/img/logo.png"
-    img2.src = "assets/img/donuts2.png"
+    imgLogo.setAttribute("class", "logo")
+    figureDonuts.setAttribute("class", "donuts2")
+    imgDonuts.setAttribute("class", "imgDonuts2")
+    imgLogo.src = "assets/img/logo.png"
+    imgDonuts.src = "assets/img/donuts2.png"
 
-    figure.appendChild(img)
-    main.appendChild(figure)
+    figureLogo.appendChild(imgLogo)
+    main.appendChild(figureLogo)
 
 
     let section = document.createElement("section")
@@ -47,23 +47,23 @@ function createDonuts (){
     for(let i=0; i<donuts.length; i++){
 
         let opcao = document.createElement("li")
-        let donutsImg = document.createElement("img")
+        let div =document.createElement("div")
+        let donutsOpcao = document.createElement("img")
         let tipo = document.createElement("h2")
 
-        donutsImg.src=donuts[i].img
+        donutsOpcao.src=donuts[i].img
         tipo.innerText=donuts[i].tipo
 
-        donutsImg.setAttribute("class", "imgDonuts")
+        donutsOpcao.setAttribute("class", "imgDonutsOpcao")
 
         section.appendChild(loja)
         loja.appendChild(opcao)
-        opcao.appendChild(donutsImg)
-        opcao.appendChild(tipo)
-        
+        opcao.appendChild(div)
+        div.append(donutsOpcao ,tipo)
         
     }
     main.appendChild(section)
-    main.appendChild(img2)
+    main.appendChild(imgDonuts)
     body.appendChild(main)
 }
 createDonuts()
