@@ -17,7 +17,7 @@ body,html{
 body{
     background-color: rgb(223, 193, 195);
     display: flex;
-    padding: 400px;
+    padding: 1rem;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -28,25 +28,33 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: rgb(250, 215, 221);
-    width: 550px;
-    border-radius: 18px;
+    width: 100%;
+    max-width: 40rem;
+    padding:1rem 0rem 3rem 0rem;
+    border-radius: 1rem;
     box-shadow: 0px 2px 40px 2px rgb(51, 51, 51);
+    position: relative;
     
+}
+ figure{
+    display: flex;
 }
 
 .logo{
-    width: 450px;
-    height: 345px;
-    margin-top: 20px;
+    width: 75%;
+    margin: auto;
 }
 
-
 section{
-    border-radius: 10px;
+    width: 50%;
+    max-width: 20rem;
+    min-width: 10rem;
 }
 
 ul{
-    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul li:hover{
@@ -59,21 +67,22 @@ ul li:hover{
 
 li{
     display: flex;
-    margin:11px;
-    height: 42px;
+    margin:0.4rem;
+    height: 2.5rem;
+    width: 100%;
     background-color: rgb(252, 122, 183);
-    border: 2px solid rgb(8, 8, 8);
-    border-radius: 30px;
-    padding: 5px 35px 5px 35px;
-    font-size: 8px;
+    border: 0.15rem solid rgb(8, 8, 8);
+    border-radius: 2rem;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    font-size: 0.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .imgDonuts{
-    width: 30px;
+    width: 1.9rem;
     border-radius: 50%;
-    margin-right: 17px;
+    margin-right: 1rem;
 }
 
 h2{
@@ -83,6 +92,9 @@ h2{
 }
 
 .imgDonuts2{
-    width: 110px;
-    margin-left: 400px;
+    width: 25%;
+    max-width: 8rem;
+    position: absolute;
+    bottom: 0;
+    right: -0.2rem;
 }
