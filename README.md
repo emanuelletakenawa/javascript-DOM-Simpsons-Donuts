@@ -9,7 +9,7 @@
 
 ## 🖇️Para acessar a demonstração do projeto
 
-[Clique aqui](https://javascript-dom-simpsons-donuts-uzy5.vercel.app/)
+[Clique aqui](https://emanuelletakenawa.github.io/javascript-DOM-Simpsons-Donuts/)
 
 
 
@@ -28,7 +28,7 @@ Praticando a utilização do DOM, criei e estilizei essa lista de uma lojinha de
 
 <hr>
 
-## 🧡Autora
+## Feito com 💗 por :
 - [@emanuelletakenawa](https://github.com/emanuelletakenawa) <br>
 - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuelle-takenawa-32b6a1257)
 
